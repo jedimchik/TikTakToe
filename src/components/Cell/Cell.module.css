@@ -1,0 +1,29 @@
+.cellNull {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  scale: 0.9;
+}
+
+.cellx {
+  width: 100px;
+  height: 100px;
+  background-image: url("./x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  scale: 0.9;
+}
+
+.cello {
+  width: 100px;
+  height: 100px;
+  background-image: url("./o.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  scale: 0.9;
+}
+
+div[name="winCell"] {
+  background-color: rgb(1, 131, 23);
+}

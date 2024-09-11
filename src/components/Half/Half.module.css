@@ -1,0 +1,20 @@
+.half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 30px;
+
+  width: 50%;
+  border-left: 1px solid rgba(69, 69, 69, 1);
+}
+
+.moveMsg {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.73px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  color: rgba(239, 153, 25, 1);
+}

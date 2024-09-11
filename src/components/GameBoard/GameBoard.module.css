@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.cellsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  background-color: #313131;
+  border: 1px solid #7d7d7d;
+  border-radius: 20px;
+  position: relative;
+}
+
+.horizontal {
+  position: absolute;
+  height: 0.1px;
+  top: 100px;
+  left: 10px;
+  width: 280px;
+  background-color: #7d7d7d;
+  border: none;
+}
+
+.vertical {
+  position: absolute;
+  height: 0.1px;
+  top: 147px;
+  left: -42px;
+  width: 280px;
+  rotate: 90deg;
+  background-color: #7d7d7d;
+  border: none;
+}
+
+.horizontalTwo {
+  position: absolute;
+  height: 0.1px;
+  top: 200px;
+  left: 10px;
+  width: 280px;
+  background-color: #7d7d7d;
+  border: none;
+}
+
+.verticalTwo {
+  position: absolute;
+  height: 0.1px;
+  top: 147px;
+  left: 62px;
+  width: 280px;
+  rotate: 90deg;
+  background-color: #7d7d7d;
+  border: none;
+}
+
+.inactive {
+  pointer-events: none;
+}

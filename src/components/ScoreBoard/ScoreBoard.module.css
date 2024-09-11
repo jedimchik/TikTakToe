@@ -1,0 +1,9 @@
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+
+  color: white;
+  font-size: 30px;
+}
